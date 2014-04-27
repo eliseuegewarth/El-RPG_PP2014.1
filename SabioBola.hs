@@ -1,5 +1,16 @@
 module SabioBola
-(caminhoOnzeSabioBola) where
+(caminhoTresSabioBola
+,caminhoQuatroSabioBola
+,caminhoCincoSabioBola
+,caminhoSeisSabioBola
+,caminhoSeteSabioBola
+,caminhoOitoSabioBola
+,caminhoNoveSabioBola
+,caminhoDezSabioBola
+,caminhoOnzeSabioBola
+,caminhoDozeSabioBola) where
+
+import Funcionalidades (opcao)
 
 caminhoTresSabioBola = do{
         putStrLn "Você anda até a luz e descobre que realmente estava dentro de uma caverna";

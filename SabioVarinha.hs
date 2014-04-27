@@ -1,3 +1,34 @@
+module SabioVarinha 
+(caminhoTresSabioVarinha
+,caminhoQuatroSabioVarinha 
+,caminhoCincoSabioVarinha
+,caminhoSeisSabioVarinha
+,caminhoSeteSabioVarinha
+,caminhoOitoSabioVarinha
+,caminhoNoveSabioVarinha
+,caminhoDezSabioVarinha
+,caminhoOnzeSabioVarinha
+,caminhoDozeSabioVarinha) where
+
+import Funcionalidades (opcao)
+
+
+caminhoTresSabioVarinha = do{
+        putStrLn "Você anda até a luz e descobre que realmente estava dentro de uma caverna";
+        putStrLn "Você então ouve um grito saindo da caverna";
+        putStrLn "Você percebe que a sua varinha começou a emanar um brilho verde";
+        putStrLn "Digite 1 para sair e verificar do lado de fora ou digite 2 para procurar respostas na caverna";
+        opcao caminhoCincoSabioVarinha caminhoSeisSabioVarinha
+}
+
+caminhoQuatroSabioVarinha = do{
+        putStrLn "Você começa a pronunciar palavras que veêm na sua cabeça";
+        putStrLn "Sua varinha responde e começa a brilhar com um verde intenso";
+        putStrLn "Quando de repente, visualiza uma menina agachada em um canto";
+        putStrLn "Digite 1 para desviar o caminho ou digite 2 para falar com a menina";
+        opcao caminhoSeteSabioVarinha caminhoOitoSabioVarinha
+}
+
 caminhoOnzeSabioVarinha = do{
         putStrLn "O barulho começa a ficar mais perto";
         putStrLn "Uma menina então surge do escuro";
@@ -54,19 +85,3 @@ caminhoCincoSabioVarinha = do{
 }
 
 
-caminhoQuatroSabioVarinha = do{
-        putStrLn "Você começa a pronunciar palavras que veêm na sua cabeça";
-        putStrLn "Sua varinha responde e começa a brilhar com um verde intenso";
-        putStrLn "Quando de repente, visualiza uma menina agachada em um canto";
-        putStrLn "Digite 1 para desviar o caminho ou digite 2 para falar com a menina";
-        opcao caminhoSeteSabioVarinha caminhoOitoSabioVarinha
-}
-
-
-caminhoTresSabioVarinha = do{
-        putStrLn "Você anda até a luz e descobre que realmente estava dentro de uma caverna";
-        putStrLn "Você então ouve um grito saindo da caverna";
-        putStrLn "Você percebe que a sua varinha começou a emanar um brilho verde";
-        putStrLn "Digite 1 para sair e verificar do lado de fora ou digite 2 para procurar respostas na caverna";
-        opcao caminhoCincoSabioVarinha caminhoSeisSabioVarinha
-}
