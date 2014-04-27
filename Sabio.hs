@@ -38,14 +38,12 @@ caminhoOnzeSabioBola = do{
         return "Parabens! Descobriu que a personagem era feminina e por algum motivo seu passado veio ate voce para te matar. Agora tente descobrir seu destino se fosse da guerra"
 }
 caminhoDozeSabioBola = do{
-        putStrLn "Você fala a primeira coisa que vem na cabeça";
-        putStrLn "Nada acontece";
-        putStrLn "Uma menina então surge do escuro";
+        putStrLn "Você comeca a andar por aí a fora";
+        putStrLn "De repente uma menina aparece na sua frente";
         putStrLn "Você então fica sem ação, seu corpo não reage";
         putStrLn "Pior hora para sua memória voltar e lembrar que essa menina era seu pior pesadelo";
         return "GAME OVER"
 }
-
 caminhoOnzeSabioVarinha = do{
         putStrLn "O barulho começa a ficar mais perto";
         putStrLn "Uma menina então surge do escuro";
