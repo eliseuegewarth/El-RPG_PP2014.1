@@ -8,10 +8,10 @@ module Sabio
 import Funcionalidades (opcao)
 
 --imports das funções da escolha do item 'Bola de Cristal'
-import SabioBola
+import SabioBola (luzSabioBola, lembrarSabioBola)
 
 --imports das funções da escolha do item 'Varinha'
-import SabioVarinha
+import SabioVarinha (luzSabioVarinha, lembrarSabioVarinha)
 --imports--
 
 caminhoSabio = do{
@@ -20,17 +20,17 @@ caminhoSabio = do{
         putStrLn "Digite 1 para ficar somente com a bola ou digite 2 para ficar somente com a varinha";
         opcao caminhoSabioBola caminhoSabioVarinha
 }
+
 caminhoSabioBola = do{
         putStrLn "Você agora conseguiu conseguiu levantar e acaba descobrindo uma luz bem longe";
         putStrLn "tudo indica que você está em uma caverna, mas não tem certeza por causa do escuro";
         putStrLn "Digite 1 para caminhar até a luz ou digite 2 para tentar lembrar alguma mágica com sua bola para fazer luz";
-        opcao caminhoTresSabioBola caminhoQuatroSabioBola
+        opcao luzSabioBola lembrarSabioBola
 }
+
 caminhoSabioVarinha = do{
         putStrLn "Você agora conseguiu conseguiu levantar e acaba descobrindo uma luz bem longe";
         putStrLn "tudo indica que você está em uma caverna, mas não tem certeza por causa do escuro";
         putStrLn "Digite 1 para caminhar até a luz ou digite 2 para tentar lembrar alguma mágica com sua varinha para fazer luz";
-        opcao caminhoTresSabioVarinha caminhoQuatroSabioVarinha
+        opcao luzSabioVarinha lembrarSabioVarinha
 }
-
------------------------------------------------------------------------------------------------------------------------

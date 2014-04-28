@@ -11,7 +11,7 @@ import Funcionalidades (opcao)
 --imports--
 
 luzUmGuerreiroArco = do{
-        putStrLn "De longe você avista alguns bodes e sua fome chega";
+        putStrLn "De longe você avista alguns cervos e sua fome chega";
         putStrLn "Você se aproxima deles e se esconde para pensar em um plano";
         putStrLn "Digite 1 para tentar tiro com arco e flecha no grupo ou digite 2 para sair para outro lugar";
         opcao ataqueGuerreiroArco compaixaoGuerreiroArco
