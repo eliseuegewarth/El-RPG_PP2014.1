@@ -26,6 +26,6 @@ caminhoGuerreiroFaca = do{
 caminhoGuerreiroArco = do{
         putStrLn "Você agora conseguiu conseguiu levantar e acaba descobrindo uma luz bem longe";
         putStrLn "tudo indica que você está em uma caverna, mas não tem certeza por causa do escuro";
-        putStrLn "Digite 1 para caminhar até a luz ou digite 2 para fazer um barulho no chão com seu  arco e ver o que aparece";
-        opcao caminhoTresGuerreiroArco caminhoQuatroGuerreiroArco  
+        putStrLn "Digite 1 para caminhar até a luz ou digite 2 para fazer um barulho no chão com seu arco e ver o que aparece";
+        opcao luzGuerreiroArco barulhoGuerreiroArco  
 }
